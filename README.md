@@ -43,9 +43,9 @@
 ![image](https://github.com/victoria-kirichenko/credit_service/assets/88627479/c4a9add2-1edf-4a68-8c8b-93d88ecab8b6)
 
 ## Запросы для проверки
-- http://localhost:8080/api/register
-- http://localhost:8080/login
-- http://localhost:8081/offers/show_offers?userId=
-- http://localhost:8081/offers/accept_offer?offerId=
-- http://localhost:8081/offers/decline_offer?offerId=
-- http://localhost:8081/offers/ask_later_offer?offerId=
+- **POST** http://localhost:8080/api/register
+- **GET** http://localhost:8080/login
+- **GET** http://localhost:8081/offers/show_offers?userId=
+- **POST** http://localhost:8081/offers/accept_offer?offerId=
+- **POST** http://localhost:8081/offers/decline_offer?offerId=
+- **POST** http://localhost:8081/offers/ask_later_offer?offerId=
